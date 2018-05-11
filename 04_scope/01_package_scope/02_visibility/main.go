@@ -2,17 +2,18 @@ package main
 
 import "fmt"
 
-var x int = 42
-
 func main() {
-	y := 43
+	y := "Tinker"
 	fmt.Println(x)
 	fmt.Println(y)
 	foo()
 }
 
 func foo() {
-	y := 41
+	y := "Waddlegump"
 	fmt.Println(x)
 	fmt.Println(y)
 }
+
+// order doesn't matter for package level scope
+var x string = "Dorwitz"
