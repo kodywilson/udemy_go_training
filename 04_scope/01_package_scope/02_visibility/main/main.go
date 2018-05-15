@@ -9,4 +9,5 @@ import (
 func main() {
 	fmt.Println(vis.MyName)
 	vis.PrintVar()
+	vis.SuperCool()
 }
