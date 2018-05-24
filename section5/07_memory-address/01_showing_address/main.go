@@ -7,4 +7,6 @@ func main() {
 
 	fmt.Println("a - ", a)
 	fmt.Println("a's memory address - ", &a)
+	fmt.Printf("now in decimal - ")
+	fmt.Printf("%d \n", &a)
 }
