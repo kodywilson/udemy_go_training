@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 	x := 0
-	for i := 0; i < 1001; i++ {
+	for i := 0; i < 10001; i++ {
 		if i%3 == 0 {
 			x = i + x
 			continue
