@@ -12,7 +12,7 @@ func wrapper() func() int {
 
 func main() {
 	increment := wrapper()
-	for i := 10; i > 0; i-- {
+	for i := 100; i > 0; i-- {
 		fmt.Println("Up!", increment(), "Down!", i)
 	}
 }
