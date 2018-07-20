@@ -4,18 +4,11 @@ import "fmt"
 
 func main() {
   age := 44
-  fmt.Println(&age)
-
-  changeMe(&age)
-
-  fmt.Println(&age)
-  fmt.Println(age)
+  changeMe(age)
+  fmt.Println(age) // 44
 }
 
-func changeMe(z *int) {
+func changeMe(z int) {
   fmt.Println(z)
-  fmt.Println(*z)
-  *z = 24
-  fmt.Println(z)
-  fmt.Println(*z)
+  z = 24
 }
