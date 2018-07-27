@@ -10,6 +10,12 @@ func main() {
 		}
 		return x / 2, even
 	}
-	fmt.Println("You passed 100. Now I divide by 2 and tell you if even.")
-	fmt.Println(dividebool(100))
+	var x int
+	fmt.Println("Please enter a whole number (no decimals): ")
+	_, err := fmt.Scanf("%d", &x)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println("You passed", x, "- Now I divide by 2 and tell you if even.")
+	fmt.Println(dividebool(x))
 }
