@@ -2,18 +2,17 @@ package main
 
 import "fmt"
 
-func greatest(numbers []int) int {
-	var n, biggest int
+func greatest(numbers ...int) int {
+	var biggest int
 	for _, v := range numbers {
-		if v > n {
-			n = v
-			biggest = n
+		if v > biggest {
+			biggest = v
 		}
 	}
 	return biggest
 }
 
 func main() {
-	numbers := []int{43, 56, 87, 12, 45, 57, 103, 22, 9}
-	fmt.Println("The biggest number is", greatest(numbers))
+	greatest := greatest(43, 56, 87, 12, 45, 57, 103, 22, 9)
+	fmt.Println("The biggest number is", greatest)
 }
