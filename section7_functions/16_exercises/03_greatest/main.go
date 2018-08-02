@@ -3,11 +3,10 @@ package main
 import "fmt"
 
 func greatest(numbers ...int) int {
-	var n, biggest int
+	var biggest int
 	for _, v := range numbers {
-		if v > n {
-			n = v
-			biggest = n
+		if v > biggest {
+			biggest = v
 		}
 	}
 	return biggest
