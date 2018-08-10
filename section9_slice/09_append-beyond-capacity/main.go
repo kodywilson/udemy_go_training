@@ -12,7 +12,12 @@ func main() {
   greeting[1] = "Bonjour!"
   greeting[2] = "Buenos dias!"
   greeting = append(greeting, "Suprabadham!")
+  greeting = append(greeting, "Zao an")
+  greeting = append(greeting, "Ohayou gozaimasu")
+  greeting = append(greeting, "Gidday!")
 
-  fmt.Println(greeting[3])
+  fmt.Println(greeting[6])
+  fmt.Println(len(greeting))
+  fmt.Println(cap(greeting))
 
 }
