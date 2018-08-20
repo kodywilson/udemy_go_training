@@ -16,4 +16,6 @@ func main() {
 	fmt.Println(myGreeting)
 	myGreeting[4] = "Arrrrr Matey!!"
 	fmt.Println(myGreeting)
+	myGreeting[2] = "Buenos dias!" // let's put it back
+	fmt.Println(myGreeting) // notice how the order can change
 }
