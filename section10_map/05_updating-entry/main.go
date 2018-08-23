@@ -19,4 +19,7 @@ func main() {
 	myOther["Jack"] = "Arrrr Matey!!"
 	fmt.Println(myOther)
 	fmt.Println(len(myOther))
+
+	myGreeting["Terry"] = "Gday mate!"
+	fmt.Println(myGreeting)
 }
