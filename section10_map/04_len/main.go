@@ -9,6 +9,7 @@ func main() {
 	myGreeting["Ernesto"] = "Good morning!"
 
 	fmt.Println(myGreeting)
+	fmt.Println("There are", len(myGreeting), "items in the map.")
 
 	var myOther = map[string]string{
 		"Tim":  "Hola!",
@@ -16,5 +17,5 @@ func main() {
 	}
 	myOther["Jack"] = "Arrrr Matey!!"
 	fmt.Println(myOther)
-	fmt.Println(len(myOther))
+	fmt.Println("Now there are", len(myOther), "items in the map.")
 }
