@@ -13,5 +13,7 @@ func main() {
   myInts := make(map[int]int)
   myInts[0] = 0
   myInts[1] = 1
+  myInts[2] = 2
   fmt.Println(myInts)
-} 
+  fmt.Println(myInts[1] + myInts[2])
+}
