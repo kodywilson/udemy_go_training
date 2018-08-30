@@ -36,4 +36,8 @@ func main() {
 	}
 
 	fmt.Println(myGreeting)
+
+	if myGreeting[3] == "Bongiorno!" {
+		fmt.Println("Give me spaghetti for breakfast please.")
+	}
 }
