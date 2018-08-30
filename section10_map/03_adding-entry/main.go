@@ -16,4 +16,12 @@ func main() {
 	}
 	myOther["Jack"] = "Arrrr Matey!!"
 	fmt.Println(myOther)
+
+	var myNumbers = map[int]int{}
+	y := 10
+	for x := 0; x < 11; x++ {
+		myNumbers[x] = y
+		y--
+	}
+	fmt.Println(myNumbers)
 }
