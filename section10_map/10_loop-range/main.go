@@ -23,7 +23,10 @@ func main() {
 	}
 	for key, val := range myNumbers {
 		if key%2 == 0 {
-			fmt.Println(key, "is even and", val, "probably is too!")
+			fmt.Println(key, "is even.")
+			if val%2 == 0 {
+				fmt.Println(val, "is even too!")
+			}
 		}
 		if key%2 != 0 {
 			fmt.Println(key, "is odd and", val, "probably is too!")
