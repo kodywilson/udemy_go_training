@@ -29,7 +29,10 @@ func main() {
 			}
 		}
 		if key%2 != 0 {
-			fmt.Println(key, "is odd and", val, "probably is too!")
+			fmt.Println(key, "is odd.")
+			if val%2 != 0 {
+				fmt.Println(val, "is odd too!")
+			}
 		}
 	}
 }
