@@ -18,8 +18,8 @@ func main() {
 	fmt.Println(myOther)
 
 	var myNumbers = map[int]int{}
-	y := 10
-	for x := 0; x < 11; x++ {
+	y := 100
+	for x := 0; x < 101; x++ {
 		myNumbers[x] = y
 		y--
 	}
