@@ -15,4 +15,11 @@ func main() {
 		"Bert": "Good morning!",
 	}
 	fmt.Println(myOther)
+
+	var myMixed = map[int]string{
+		0: "Bill",
+		2: "Tom",
+		1: "Jill",
+	}
+	fmt.Println(myMixed)
 }
