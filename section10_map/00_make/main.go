@@ -15,4 +15,6 @@ func main() {
 		myNumbers[i] = i
 	}
 	fmt.Println(myNumbers)
+	delete(myNumbers, 3)
+	fmt.Println(myNumbers)
 }
