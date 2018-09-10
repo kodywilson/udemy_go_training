@@ -21,12 +21,15 @@ func main() {
 	fmt.Println(myGreeting)        // notice how the order can change
 	cleaner(1, 2, 3, 4)
 	fmt.Println(myGreeting)
+	myGreeting[2] = "Hola!"
+	myGreeting[7] = "Yo!"
+	fmt.Println(myGreeting)
 }
 
 // pass list of keys to delete
 func cleaner(listy ...int) {
 	for _, x := range listy {
-		fmt.Println(x)
+		fmt.Println("Deleting", x)
 		delete(myGreeting, x)
 	}
 }
