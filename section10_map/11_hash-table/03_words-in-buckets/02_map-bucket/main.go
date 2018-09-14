@@ -23,13 +23,13 @@ func main() {
 	// of times that word occurs
 	buckets := make(map[int]map[string]int)
 	// create slices to hold words
-	for i := 0; i < 12; i++ {
+	for i := 0; i < 24; i++ {
 		buckets[i] = make(map[string]int)
 	}
 	// Loop over the words
 	for scanner.Scan() {
 		word := scanner.Text()
-		n := HashBucket(word, 12)
+		n := HashBucket(word, 24)
 		buckets[n][word]++
 	}
 	// Print the words in one of the buckets
