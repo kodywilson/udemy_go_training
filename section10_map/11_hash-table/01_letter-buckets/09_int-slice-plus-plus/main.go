@@ -9,4 +9,6 @@ func main() {
 	fmt.Println(buckets[0])
 	buckets[0]++
 	fmt.Println(buckets[0])
+	buckets[0]--
+	fmt.Println(buckets[0])
 }
