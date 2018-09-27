@@ -17,7 +17,12 @@ func (p person) reverseName() string {
 }
 
 func (p person) sillyName() string {
-	return p.first + "McDoogal"
+	if p.first == "James" {
+		return p.first + "Bongos"
+	} else {
+		return p.first + "McDoogal"
+	}
+
 }
 
 func main() {
