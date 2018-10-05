@@ -19,4 +19,10 @@ func main() {
 	fmt.Printf("%T\n", p2)
 	fmt.Println(p2.name)
 	fmt.Println(p2.age)
+
+	p3 := person{"Money", 24}
+	fmt.Println(p3)
+	fmt.Printf("%T\n", p3)
+	fmt.Println(p3.name)
+	fmt.Println(p3.age)
 }
