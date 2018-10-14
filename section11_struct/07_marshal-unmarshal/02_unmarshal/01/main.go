@@ -17,8 +17,17 @@ func main() {
 	fmt.Println(p1.Last)
 	fmt.Println(p1.Age)
 
-	bs := []byte(`{"First":"James", "Last":"Bond", "Age":20}`)
+	bs := []byte(`{"First":"James", "Last":"Bond", "Age":32}`)
 	json.Unmarshal(bs, &p1)
+
+	fmt.Println("----------------")
+	fmt.Println(p1.First)
+	fmt.Println(p1.Last)
+	fmt.Println(p1.Age)
+	fmt.Printf("%T \n", p1)
+
+	bs2 := []byte(`{"First":"Money", "Last":"Penny", "Age":24}`)
+	json.Unmarshal(bs2, &p1)
 
 	fmt.Println("----------------")
 	fmt.Println(p1.First)
