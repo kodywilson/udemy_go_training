@@ -44,7 +44,11 @@ func main() {
 	fmt.Println(p1.Age)
 	fmt.Printf("%T \n", p1)
 
+<<<<<<< HEAD
 	bs4 := []byte(`{"First":"Silly", "Last":"String", "Age":33}`)
+=======
+	bs4 := []byte(`{"First":"Hunky", "Last":"Dori", "Age":42}`)
+>>>>>>> afc9c32ab6e11c4323c00b2149d73a03291439f4
 	json.Unmarshal(bs4, &p1)
 
 	fmt.Println("----------------")
