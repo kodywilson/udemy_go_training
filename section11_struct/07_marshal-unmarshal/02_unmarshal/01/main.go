@@ -43,4 +43,13 @@ func main() {
 	fmt.Println(p1.Last)
 	fmt.Println(p1.Age)
 	fmt.Printf("%T \n", p1)
+
+	bs4 := []byte(`{"First":"Silly", "Last":"String", "Age":33}`)
+	json.Unmarshal(bs4, &p1)
+
+	fmt.Println("----------------")
+	fmt.Println(p1.First)
+	fmt.Println(p1.Last)
+	fmt.Println(p1.Age)
+	fmt.Printf("%T \n", p1)
 }
