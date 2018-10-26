@@ -22,4 +22,6 @@ func info(z Shape) {
 func main() {
 	s := Square{10}
 	info(s)
+	y := Square{100}
+	info(y)
 }
