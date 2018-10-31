@@ -26,4 +26,6 @@ func main() {
 	info(y)
 	x := Square{33}
 	info(x)
+	a := Square{50}
+	info(a)
 }
