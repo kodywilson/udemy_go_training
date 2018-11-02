@@ -28,4 +28,6 @@ func main() {
 	info(x)
 	a := Square{50}
 	info(a)
+	b := Square{1000}
+	info(b)
 }
