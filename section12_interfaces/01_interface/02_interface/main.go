@@ -34,4 +34,6 @@ func main() {
 	info(c)
 	d := Square{-3}
 	info(d)
+	e := Square{-9}
+	info(e)
 }
