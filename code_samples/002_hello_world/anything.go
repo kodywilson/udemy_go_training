@@ -7,11 +7,15 @@ func main() {
 	foo()
 	fmt.Println("something more")
 
+	x := 3
+
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {
 			fmt.Println(i)
 		}
 	}
+
+	fmt.Println(x)
 }
 
 func foo() {
