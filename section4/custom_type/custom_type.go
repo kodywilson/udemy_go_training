@@ -5,8 +5,10 @@ import "fmt"
 var a int
 
 type keg int
+type cask string
 
 var b keg
+var c cask
 
 func main() {
 	a = 42
@@ -18,4 +20,6 @@ func main() {
 	a = int(b)
 	fmt.Println(a)
 	fmt.Printf("%T\n", a)
+	c = "Yo!"
+	fmt.Println(c)
 }
