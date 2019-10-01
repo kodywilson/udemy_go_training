@@ -6,9 +6,11 @@ var a int
 
 type keg int
 type cask string
+type bottle bool
 
 var b keg
 var c cask
+var d bottle
 
 func main() {
 	a = 42
@@ -22,4 +24,6 @@ func main() {
 	fmt.Printf("%T\n", a)
 	c = "Yo!"
 	fmt.Println(c)
+	d = true
+	fmt.Println(d)
 }
