@@ -26,4 +26,6 @@ func main() {
 	fmt.Println(c)
 	d = true
 	fmt.Println(d)
+	c = "Ho Ho!"
+	fmt.Println(c)
 }
