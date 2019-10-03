@@ -28,4 +28,6 @@ func main() {
 	fmt.Println(d)
 	c = "Ho Ho!"
 	fmt.Println(c)
+	c = "and a bottle of rum!"
+	fmt.Println(c)
 }
