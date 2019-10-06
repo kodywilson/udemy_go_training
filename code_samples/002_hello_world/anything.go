@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello everyone, this is a lot of fun.")
 	foo()
-	fmt.Println("something more")
+	fmt.Println("Now, I am out of foo!")
 
 	x := 3
 
