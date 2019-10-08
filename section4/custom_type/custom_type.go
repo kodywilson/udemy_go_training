@@ -30,4 +30,6 @@ func main() {
 	fmt.Println(c)
 	c = "and a bottle of rum!"
 	fmt.Println(c)
+	c = "Take one down"
+	fmt.Println(c)
 }
