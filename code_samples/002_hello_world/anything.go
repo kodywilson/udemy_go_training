@@ -9,7 +9,7 @@ func main() {
 
 	x := 3
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 20; i++ {
 		if i%2 == 0 {
 			fmt.Println(i)
 		}
@@ -20,6 +20,11 @@ func main() {
 
 func foo() {
 	fmt.Println("I'm in foo.")
+	bar()
+}
+
+func bar() {
+	fmt.Println("Welcome to bar")
 }
 
 // a comment
