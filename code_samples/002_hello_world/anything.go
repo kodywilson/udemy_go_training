@@ -25,6 +25,11 @@ func foo() {
 
 func bar() {
 	fmt.Println("Welcome to bar")
+	city()
+}
+
+func city() {
+	fmt.Println("it's lovely here in the city.")
 }
 
 // a comment
