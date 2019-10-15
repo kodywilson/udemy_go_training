@@ -16,6 +16,14 @@ func main() {
 	}
 
 	fmt.Println(x)
+
+	fmt.Println("10 seconds until lift off!")
+	for j := 10; j > 0; j-- {
+		fmt.Println(j)
+		if j == 1 {
+			fmt.Println("Blastoff!!!")
+		}
+	}
 }
 
 func foo() {
@@ -25,6 +33,11 @@ func foo() {
 
 func bar() {
 	fmt.Println("Welcome to bar")
+	city()
+}
+
+func city() {
+	fmt.Println("it's lovely here in the city.")
 }
 
 // a comment
